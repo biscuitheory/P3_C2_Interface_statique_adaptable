@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    position: relative;
+    color: white;
+    background-image: url(/assets/images/mastehead.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+#brand {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    width: auto;
+}
+
+#brand img {
+    padding: 1vh 1vw;
+    width: 7%;
+    height: 5%;
+    margin-left: 1vw;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 0.9em;
+    padding: 1.2vh 0vw;
+}
+
+#home {
+    position: absolute;
+    margin-left: 7vw;
+    margin-right: 56vw;
+    margin-top: 52vh;
+    margin-bottom: auto;
+    border: 1px solid red;
+}
+
+h2 {
+    font-size: 2.2em;
+    font-weight: 500;
+    width: 10vw;
+    line-height: 1.2;
+    padding-bottom: 1vh;
+}
+
+#home p {
+    font-size: 0.5em;
+    line-height: 1.7;
+    border: 1px solid red;
+}
+
+#phone {
+    display: none;
+}
+
+#introduction {
+    width: 100vw;
+}
+
+.introtext {
+    margin-top: 8vh;
+    margin-left: 7vw;
+    margin-right: 8vw;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+    padding-bottom: 2vh;
+}
+
+.introtext p {
+    font-size: 0.6em;
+    line-height: 1.7;
+    padding-bottom: 2vh;
+    color: #b4b4b4;
+}
+
+#services {
+    width: 100vw;
+}
+
+#service1 {
+    background-color: #f4979f;
+}
+
+#service2 {
+    background-color: #605f7f;
+}
+
+#service3 {
+    background-image: url(/assets/images/box-bg.jpg);
+    background-repeat: no-repeat;
+}
+
+#service4 {
+    background-image: url(/assets/images/box-bg-lg.jpg);
+    background-repeat: no-repeat;
+}
+
+#service5 {
+    background-color: #84c99d;
+}
+
+#details {
+
+}
+
+.detail {
+
+}
+
+#options {
+    background-image: url(/assets/images/full-image.jpg);
+}
+
+#reasons {
+    background-color: #84c99d;
+}
+
+#business {
+    
+}
+
+#legacy {
+    background-color: #e2e2e2;
+}
+
+#mostpopular {
+    background-color: #bf8bc0;
+}
+
+footer {
+    background-color: #182432;
+}
+
+.footertext {
+
+}
+
+.footerform {
+
+}
+
+.footernav {
+
+}

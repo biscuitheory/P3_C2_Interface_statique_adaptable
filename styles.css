@@ -214,7 +214,7 @@ h1 {
     font-weight: 500;
     line-height: 1.2;
     padding-right: 10vw;
-    padding-top: 20vh;
+    padding-top: 25vh;
     padding-bottom: 1vh;
 }
 
@@ -269,7 +269,6 @@ h1 {
     padding-bottom: 16vh;
     padding-left: 13vw;
     padding-right: 8vw;
-    border: 1px solid pink
 }
 
 #business h3 {
@@ -286,7 +285,7 @@ h1 {
 }
 
 .offer1 {
-    margin-bottom: 10vh;
+    padding-bottom: 10vh;
     
 }
 
@@ -301,7 +300,6 @@ h1 {
     text-align: center;
     display: inline-block;
     margin-bottom: 2vh;
-
 }
 
 button {
@@ -381,13 +379,11 @@ label {
     display: flex;
     flex-direction: row;
     margin-top: 2vh;
-    border: 1px solid red;
 }
 
 .footernav ul {
     list-style: none;
     margin-right: 12vw;
-    border: 1px solid red;
 }
 
 .footernav a {
@@ -506,20 +502,18 @@ label {
     #service5 p {
         font-size: 0.8em;
         width: 75vw;
-
     }
 
     /* SECTION DETAILS */
     #details {
-        margin-top: 10vh;
-        margin-bottom: 16vh;
-        margin-left: 7vw;
-        margin-right: 5vw;
+        padding-top: 15vh;
+        padding-bottom: 16vh;
+        padding-left: 7vw;
+        padding-right: 5vw;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
-
     }
 
     #details h3 {
@@ -625,7 +619,6 @@ label {
         padding-bottom: 8vh;
         padding-left: 7vw;
         padding-right: 7vw;
-        border: 1px solid pink;
         display: flex;
         justify-content: space-between;
     }
@@ -644,8 +637,8 @@ label {
     }
 
     .offer1 {
-        margin-bottom: 10vh;
-        margin-right: 3vw;
+        padding-bottom: 10vh;
+        padding-right: 3vw;
         height: 45vh;
         width: auto;
     }
@@ -672,7 +665,6 @@ label {
         padding-bottom: 20vh;
         padding-left: 7vw;
         padding-right: 6vw;
-        border: 1px solid green;
     }
 
     .footertext h4 {
@@ -697,12 +689,10 @@ label {
 
     .footernav {
         margin-top: 2vh;
-        border: 1px solid red;
     }
 
     .footernav ul {
         margin-right: 15vw;
-        border: 1px solid red;
     }
 }
 
@@ -847,10 +837,10 @@ label {
 
     /* SECTION DETAILS */
     #details {
-        margin-top: 9vh;
-        margin-bottom: 15vh;
-        margin-left: 21vw;
-        margin-right: 19vw;
+        padding-top: 9vh;
+        padding-bottom: 15vh;
+        padding-left: 21vw;
+        padding-right: 19vw;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -862,7 +852,6 @@ label {
         font-size: 1.9em;
         font-weight: 400;
         margin-bottom: 6vh;
-
     }
 
     .detail {
@@ -924,7 +913,7 @@ label {
         width: 100vw;
         font-size: 1.8em;
         font-weight: 400;
-        margin-bottom: 7vh;
+        margin-bottom: 6vh;
     }
 
     .reason {
@@ -945,88 +934,98 @@ label {
 
     /* SECTION BUSINESS */
     #business {
-        padding-top: 14vh;
+        padding-top: 10vh;
         padding-bottom: 8vh;
-        padding-left: 7vw;
-        padding-right: 7vw;
-        border: 1px solid pink;
+        padding-left: 22vw;
+        padding-right: 17vw;
         display: flex;
-        justify-content: space-between;
     }
 
     #business h3 {
-        font-size: 2.2em;
+        font-size: 1.6em;
         font-weight: 400;
-        line-height: 0.8;
+        line-height: 0.7;
         padding-bottom: 3vh;
     }
 
     #businesstext {
-        font-size: 0.9em;
-        line-height: 1.9;
+        font-size: 0.8em;
+        line-height: 1.7;
         margin-bottom: 2vh;
     }
 
     .offer1 {
-        margin-bottom: 10vh;
-        margin-right: 3vw;
+        padding-top: 2.5vh;
+        padding-bottom: 10vh;
+        padding-left: 1.5vw;
+        padding-right: 1vw;
+        margin-right: 1vw;
         height: 45vh;
-        width: auto;
+        width: 38vw;
+    }
+
+    .offer2 {
+        padding-top: 2.5vh;
+        padding-bottom: 10vh;
+        padding-left: 1.5vw;
+        padding-right: 1vw;
+        margin-right: 1vw;
+        width: 38vw;
     }
 
     #legacy, #mostpopular {
-        font-size: 0.8em;
+        font-size: 0.6em;
         font-weight: bolder;
-        padding: 12px 16px;
+        padding: 10px 14px;
         margin-bottom: 4vh;
     }
 
     button {
-        font-size: 0.9em;
-        font-weight: bolder;
-        padding: 1vh 2vw;
+        font-size: 0.7em;
+        padding: 1vh 0.8vw;
         margin-bottom: 1vh;
     }
 
     /* SECTION FOOTER */
     footer {
-        font-size: 0.9em;
-        line-height: 1.8;
+        font-size: 0.7em;
+        line-height: 1.7;
         padding-top: 14vh;
         padding-bottom: 20vh;
-        padding-left: 7vw;
+        padding-left: 21vw;
         padding-right: 6vw;
-        border: 1px solid green;
-    }
-
-    .footertext h4 {
-        margin-bottom: 1vh;
-    }
-
-    .footerform + .footernav h4 {
-        margin-bottom: 1vh;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     input[type="text"] {
-        padding-left: 40px;
-        width: 100%;
+        width: 29vw;
         padding: 2vh 5vw;
-        margin-top: 1vh;
-        margin-bottom: 0.5vh;
     }
 
     label {
+        width: 29vw;
         font-size: 0.8em;
     }
 
+    .footertext {
+        width: 30vw;
+        padding-right: 3vw;
+    }
+
+    .footerform {
+        width: 29vw;
+        display: flex;
+        flex-direction: column;
+    }
+
     .footernav {
+        width: 30vw;
         margin-top: 2vh;
-        border: 1px solid red;
     }
 
     .footernav ul {
-        margin-right: 15vw;
-        border: 1px solid red;
+        margin-right: 5vw;
     }
 
 

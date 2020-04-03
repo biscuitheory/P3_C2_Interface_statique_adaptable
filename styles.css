@@ -973,6 +973,11 @@ label {
         width: 38vw;
     }
 
+    .offer1:hover, .offer2:hover {
+        box-shadow: 0 3px 5px rgba(0,0,0,0.15);
+        transition: all ease-out 0.75s;
+    }
+
     #legacy, #mostpopular {
         font-size: 0.6em;
         font-weight: bolder;

@@ -360,7 +360,6 @@ footer {
     padding-bottom: 16vh;
     padding-left: 7vw;
     padding-right: 8vw;
-    border: 1px solid green;
 }
 
 .footertext {
@@ -387,8 +386,7 @@ footer {
 
 input[type="email"] {
     position: relative;
-    padding-left: 40px;
-    padding: 1vh 5vw;
+    padding: 1vh 1vw;
     margin-top: 1vh;
     margin-bottom: 0.5vh;
     border: none;
@@ -716,9 +714,6 @@ label {
         margin-bottom: 1vh;
     }
 
-    .footerform h4 {
-    }
-
     input[type="email"] {
         width: 80vw;
     }
@@ -977,7 +972,7 @@ label {
     /* SECTION BUSINESS */
     #business {
         padding-top: 10vh;
-        padding-bottom: 8vh;
+        padding-bottom: 10vh;
         padding-left: 22vw;
         padding-right: 17vw;
         display: flex;
@@ -998,7 +993,7 @@ label {
 
     .offer1, .offer2 {
         padding-top: 2.5vh;
-        padding-bottom: 10vh;
+        padding-bottom: 2.5vh;
         padding-left: 1.5vw;
         padding-right: 1vw;
         margin-right: 1vw;
@@ -1006,7 +1001,8 @@ label {
     }
 
     .offer1:hover, .offer2:hover {
-        box-shadow: 0 3px 5px rgba(0,0,0,0.15);
+        border-radius: 4px;
+        box-shadow: 1px 2px 5px 5px rgba(0,0,0,0.15);
         transition: all ease-out 0.75s;
     }
 
@@ -1042,7 +1038,6 @@ label {
     }
 
     input[type="email"] {
-        padding: 1vh 5vw;
         margin-top: 0vh;
     }
 

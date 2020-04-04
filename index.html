@@ -43,7 +43,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipisicing.</p>
                 <div class="servicelink">
                     <a href="">Find out more</a>
-                    <img src="" alt="">
+                    <img class="arrow" src="/assets/images/arrow.svg" alt="arrow">
                 </div>
             </div>
         </div>
@@ -53,7 +53,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipisicing.</p>
                 <div class="servicelink">
                     <a href="">Find out more</a>
-                    <img src="" alt="">
+                    <img class="arrow" src="/assets/images/arrow.svg" alt="arrow">
                 </div>
             </div>
         </div>
@@ -63,7 +63,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipisicing.</p>
                 <div class="servicelink">
                     <a href="">Get insights</a>
-                    <img src="" alt="">
+                    <img class="arrow" src="/assets/images/arrow.svg" alt="arrow">
                 </div>
             </div>
         </div>
@@ -72,8 +72,8 @@
                 <h3>Sign up & see why</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipisicing.</p>
                 <div class="servicelink">
-                    <a href="">Get started now &rarr;</a>
-                    &rarr;
+                    <a href="">Get started now</a>
+                    <img class="arrow" src="/assets/images/arrow.svg" alt="arrow">
                 </div>
             </div>
         </div>
@@ -83,7 +83,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipisicing.</p>
                 <div class="servicelink">
                     <a href="">Find out more</a>
-                    &#8594;
+                    <img class="arrow" src="/assets/images/arrow.svg" alt="arrow">
                 </div>
             </div>
         </div>
@@ -115,7 +115,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <div class="optionlink">
                 <a href="">See the options</a>
-                <i class="fal fa-long-arrow-right"></i>
+                <img class="arrow" src="/assets/images/arrow.svg" alt="arrow">
             </div>
         </div>
     </section>
@@ -141,15 +141,21 @@
             <p id="legacy">Legacy</p>
             <h3>Go it Solo</h3>
             <p id="businesstext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-            <button>Buy Now $9</button>
-            <div class="logos">logos apple windows</div>
+            <button id="offerbutton">Buy Now $9</button>
+            <div class="logos">
+                <img id="logoapple" src="/assets/images/company.svg" alt="applelogo">
+                <img id="logowindows" src="/assets/images/windows.svg" alt="windowslogo">
+            </div>
          </div>
          <div class="offer2">
             <p id="mostpopular">Most Popular</p>
             <h3>Team Plan</h3>
             <p id="businesstext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-            <button>Buy Now $18</button>
-            <div class="logos">logos apple windows</div>
+            <button id="offerbutton">Buy Now $18</button>
+            <div class="logos">
+                <img id="logoapple" src="/assets/images/company.svg" alt="applelogo">
+                <img id="logowindows" src="/assets/images/windows.svg" alt="windowslogo">
+            </div>
         </div>
     </section>
 
@@ -160,7 +166,8 @@
         </div>
         <div class="footerform">
             <h4>Stay in touch</h4>
-            <input type="text" name="hello" id="email">
+            <input type="email" name="hello" id="email" pattern=".+\.com" required>
+            <button id="submitbutton">&#10003</button>
             <label for="email">We don't send spam. Actually, who are we kidding, we'll spam the shit out of your inbox</label>
         </div>
         <div class="footernav">

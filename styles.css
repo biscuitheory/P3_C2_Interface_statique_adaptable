@@ -23,7 +23,6 @@ body {
 }
 
 .arrow {
-    
     height: 1.5vh;
     width: 1.5vw;
 }
@@ -61,10 +60,7 @@ h1 {
 }
 
 #home {
-    margin-left: 7vw;
-    margin-right: 56vw;
-    margin-top: 52vh;
-    margin-bottom: auto;
+    margin: 52vh 56vw auto 7vw;
 }
 
 #home h2 {
@@ -118,10 +114,7 @@ h1 {
 }
 
 .servicebox {
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    padding-left: 8vw;
-    padding-right: 10vw;
+    padding: 5vh 10vw 5vh 8vw;
 }
 
 #service1 {
@@ -172,10 +165,7 @@ h1 {
 
 /* SECTION DETAILS */
 #details {
-    padding-top: 8vh;
-    padding-bottom: 16vh;
-    padding-left: 8vw;
-    padding-right: 8vw;
+    padding: 8vh 8vw 16vh 8vw;
 }
 
 #details h3 {
@@ -207,20 +197,14 @@ h1 {
     background-size: 370%;
     width: 100vw;
     height: 100vh;
-}
-
-.optiontext {
-    margin-left: 7vw;
-    margin-right: 12vw;
-    margin-bottom: auto;
+    padding: 23vh 15vw 23vh 7vw;
 }
 
 #options h2 {
     font-size: 2.2em;
     font-weight: 500;
     line-height: 1.2;
-    padding-right: 10vw;
-    padding-top: 25vh;
+    padding-right: 23vw;
     padding-bottom: 1vh;
 }
 
@@ -230,7 +214,7 @@ h1 {
 }
 
 .optionlink {
-    padding-top: 1.5vh
+    padding-top: 1.5vh;
 }
 
 .optionlink a {
@@ -244,10 +228,7 @@ h1 {
 #reasons {
     color: #f0f0f0;
     background-color: #84c99d;
-    padding-top: 10vh;
-    padding-bottom: 16vh;
-    padding-left: 8vw;
-    padding-right: 8vw;
+    padding: 10vh 8vw 16vh 8vw;
 }
 
 #reasons h3 {
@@ -271,10 +252,7 @@ h1 {
 
 /* SECTION BUSINESS */
 #business {
-    padding-top: 12vh;
-    padding-bottom: 16vh;
-    padding-left: 13vw;
-    padding-right: 8vw;
+    padding: 12vh 8vw 16vh 13vw;
 }
 
 #business h3 {
@@ -320,6 +298,7 @@ h1 {
     text-align: center;
     display: inline-block;
     margin-bottom: 1vh;
+    cursor: pointer;
 }
 
 .logos {
@@ -333,7 +312,7 @@ h1 {
     margin-left: -0.5vw;
 }
 
-#logowindows {
+.logowindows {
     padding-top: 1vh;
 }
 
@@ -356,31 +335,28 @@ footer {
     color: #f0f0f0;
     font-size: 0.55em;
     line-height: 1.8;
-    padding-top: 12vh;
-    padding-bottom: 16vh;
-    padding-left: 7vw;
-    padding-right: 8vw;
+    padding: 12vh 8vw 16vh 7vw;
 }
 
-.footertext {
+#footertext {
     margin-bottom: 2vh;
 }
 
-.footertext h4 {
+#footertext h4 {
     margin-bottom: 1vh;
 }
 
-.footerform + .footernav h4 {
+#footerform + #footernav h4 {
     margin-bottom: 1vh;
 }
 
-.footerform {
+#footerform {
     display: flex;
     flex-direction: row;;
     flex-wrap: wrap;
 }
 
-.footerform h4 {
+#footerform h4 {
     width: 100vw;
 }
 
@@ -406,6 +382,7 @@ input[type="email"] {
     margin-top: 1vh;
     margin-bottom: 0.5vh;
     border: none;
+    cursor: pointer;
 }
 
 label {
@@ -414,18 +391,21 @@ label {
     width: 100vw;
 }
 
-.footernav {
+#footernav {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin-top: 2vh;
 }
 
-.footernav ul {
-    list-style: none;
+.footernavlinks {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
     margin-right: 12vw;
 }
 
-.footernav a {
+.footernavlinks a {
     text-decoration: none;
     color: #f0f0f0;
 }
@@ -436,8 +416,7 @@ label {
 /* TABLETS */
 @media screen 
   and (min-width: 768px) 
-  and (max-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
+  and (max-width: 1024px) {
 
     /* HEADER */    
     #logo-container img {
@@ -471,10 +450,7 @@ label {
 
     /* SECTION INTRODUCTION */
     .introtext {
-        margin-top: 12vh;
-        margin-bottom: 10vh;
-        margin-left: 7vw;
-        margin-right: 6vw;
+        margin-top: 12vh 7vw 10vh 6vw;
         display: flex;
     }
 
@@ -545,10 +521,7 @@ label {
 
     /* SECTION DETAILS */
     #details {
-        padding-top: 15vh;
-        padding-bottom: 16vh;
-        padding-left: 7vw;
-        padding-right: 5vw;
+        padding: 15vh 5vw 16vh 7vw;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -586,20 +559,14 @@ label {
         background-size: 275%;
         width: 100vw;
         height: 100vh;
-    }
-
-    .optiontext {
-        margin-right: 45vw;
+        padding: 26vh 45vw 1vh 7vw;
     }
 
     #options h2 {
         font-size: 4em;
         font-weight: 500;
-        width: 55vw;
+        width: 70vw;
         line-height: 1.2;
-        padding-right: 10vw;
-        padding-bottom: 1vh;
-        padding-top: 27vh;
     }
 
     #options p {
@@ -706,11 +673,11 @@ label {
         padding-right: 6vw;
     }
 
-    .footertext h4 {
+    #footertext h4 {
         margin-bottom: 1vh;
     }
 
-    .footerform + .footernav h4 {
+    #footerform + #footernav h4 {
         margin-bottom: 1vh;
     }
 
@@ -727,11 +694,11 @@ label {
         font-size: 0.8em;
     }
 
-    .footernav {
+    #footernav {
         margin-top: 2vh;
     }
 
-    .footernav ul {
+    .footernavlinks {
         margin-right: 15vw;
     }
 }
@@ -740,8 +707,7 @@ label {
 /* DESKTOP */
 @media screen 
   and (min-width: 1024px) 
-  and (max-width: 2400px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
+  and (max-width: 2400px) { 
 
     /* HEADER */    
     header {
@@ -909,17 +875,12 @@ label {
     /* SECTION OPTIONS */
     #options {
         background-size: cover;
-    }
-
-    .optiontext {
-        margin-left: 22vw;
-        margin-right: 52vw;
+        padding: 49vh 50vw 10vh 22vw;
     }
 
     #options h2 {
-        padding-top: 49vh;
         font-size: 3.3em;
-        width: 38vw;
+        width: 52vw;
     }
 
     #options p {
@@ -992,10 +953,7 @@ label {
     }
 
     .offer1, .offer2 {
-        padding-top: 2.5vh;
-        padding-bottom: 2.5vh;
-        padding-left: 1.5vw;
-        padding-right: 1vw;
+        padding: 2.5vh 1vw 2.5vh 1.5vw;
         margin-right: 1vw;
         width: 38vw;
     }
@@ -1027,14 +985,11 @@ label {
 
     /* SECTION FOOTER */
     footer {
-        font-size: 0.7em;
-        line-height: 1.7;
-        padding-top: 14vh;
-        padding-bottom: 20vh;
-        padding-left: 21vw;
-        padding-right: 6vw;
         display: flex;
         flex-wrap: wrap;
+        font-size: 0.7em;
+        line-height: 1.7;
+        padding: 14vh 6vw 20vh 21vw;
     }
 
     input[type="email"] {
@@ -1052,26 +1007,24 @@ label {
         font-size: 0.8em;
     }
 
-    .footertext {
+    #footertext {
         width: 30vw;
         padding-right: 3vw;
     }
 
-    .footerform {
+    #footerform {
         width: 30vw;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
     }
 
-    .footernav {
+    #footernav {
         width: 30vw;
         margin-top: 2vh;
     }
 
-    .footernav ul {
+    .footernavlinks {
         margin-right: 5vw;
     }
-
-
 }

@@ -261,7 +261,7 @@ h1 {
     padding-bottom: 2vh;
 }
 
-#businesstext {
+.businesstext {
     font-size: 0.6em;
     line-height: 1.7;
     color: #b4b4b4;
@@ -285,7 +285,7 @@ h1 {
     margin-bottom: 2vh;
 }
 
-#offerbutton {
+.offerbutton {
     background-color: #84c99d;
     color: #f0f0f0;
     font-family: 'Open Sans', sans-serif;
@@ -450,7 +450,7 @@ label {
 
     /* SECTION INTRODUCTION */
     .introtext {
-        margin-top: 12vh 7vw 10vh 6vw;
+        margin: 12vh 7vw 10vh 6vw;
         display: flex;
     }
 
@@ -636,7 +636,7 @@ label {
         padding-bottom: 3vh;
     }
 
-    #businesstext {
+    .businesstext {
         font-size: 0.9em;
         line-height: 1.9;
         margin-bottom: 2vh;
@@ -656,7 +656,7 @@ label {
         margin-bottom: 4vh;
     }
 
-    #offerbutton {
+    .offerbutton {
         font-size: 0.9em;
         font-weight: bolder;
         padding: 1vh 2vw;
@@ -946,7 +946,7 @@ label {
         padding-bottom: 3vh;
     }
 
-    #businesstext {
+    .businesstext {
         font-size: 0.8em;
         line-height: 1.7;
         margin-bottom: 2vh;
@@ -971,7 +971,7 @@ label {
         margin-bottom: 4vh;
     }
 
-    #offerbutton {
+    .offerbutton {
         font-size: 0.7em;
         padding: 1vh 0.8vw;
         margin-bottom: 1.5vh;

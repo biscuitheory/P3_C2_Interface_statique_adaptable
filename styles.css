@@ -28,6 +28,7 @@ body {
 }
 
 /* HEADER */
+/* Container for all header contents */
 header {
     position: relative;
     color: #f0f0f0;
@@ -38,6 +39,7 @@ header {
     height: 100vh;
 }
 
+/* Company logo and name */
 #logo-container {
     display: flex;
     flex-direction: row;
@@ -59,10 +61,12 @@ h1 {
     padding: 1.2vh 0vw;
 }
 
+/* Container for home h2 and p */
 #home {
     margin: 52vh 56vw auto 7vw;
 }
 
+/* Picture perfect */
 #home h2 {
     width: 10vw;
     font-size: 2.2em;
@@ -76,20 +80,20 @@ h1 {
     line-height: 1.7;
 }
 
+/* Phone image */
 #phone {
     display: none;
 }
 
 /* SECTION INTRODUCTION */
+/* Container for all introduction contents */
 #introduction {
     width: 100vw;
 }
 
-.introtext {
-    margin-top: 8vh;
-    margin-bottom: 8vh;
-    margin-left: 7vw;
-    margin-right: 8vw;
+/* Both introduction text paragraphs */
+.introtext {  
+    margin: 8vh 8vw 8vh 7vw;
 }
 
 .introtext h3 {
@@ -106,6 +110,7 @@ h1 {
 }
 
 /* SECTION SERVICES */
+/* Container for all services */
 #services {
     width: 100vw;
     padding-left: 5vw;
@@ -113,32 +118,9 @@ h1 {
     color: #f0f0f0
 }
 
+/* Individual service boxes */
 .servicebox {
     padding: 5vh 10vw 5vh 8vw;
-}
-
-#service1 {
-    background-color: #f4979f;
-}
-
-#service2 {
-    background-color: #605f7f;
-}
-
-#service3 {
-    background-image: url(/assets/images/box-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#service4 {
-    background-image: url(/assets/images/box-bg-lg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#service5 {
-    background-color: #84c99d;
 }
 
 .servicelink {
@@ -163,7 +145,37 @@ h1 {
     color: #f0f0f0;
 }
 
+/* Design quality service box */
+#service1 {
+    background-color: #f4979f;
+}
+
+/* Build to last service box */
+#service2 {
+    background-color: #605f7f;
+}
+
+/* Our clients service box */
+#service3 {
+    background-image: url(/assets/images/box-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Sign up and see why service box */
+#service4 {
+    background-image: url(/assets/images/box-bg-lg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Perfect pictures service box */
+#service5 {
+    background-color: #84c99d;
+}
+
 /* SECTION DETAILS */
+/* Container for all details content */
 #details {
     padding: 8vh 8vw 16vh 8vw;
 }
@@ -172,6 +184,7 @@ h1 {
     margin-bottom: 4vh;
 }
 
+/* Individual details content */
 .detail {
     margin-bottom: 2vh;
 }
@@ -190,16 +203,18 @@ h1 {
 }
 
 /* SECTION OPTIONS */
+/* Container for options h2 and p */
 #options {
     color: #f0f0f0;
     background-image: url(/assets/images/full-image.jpg);
     background-position: 15% 65%;
-    background-size: 370%;
+    background-size: cover;
     width: 100vw;
     height: 100vh;
     padding: 23vh 15vw 23vh 7vw;
 }
 
+/* More power behind every pixel */
 #options h2 {
     font-size: 2.2em;
     font-weight: 500;
@@ -225,6 +240,7 @@ h1 {
 }
 
 /* SECTION REASONS */
+/* Container for all reasons content */
 #reasons {
     color: #f0f0f0;
     background-color: #84c99d;
@@ -235,6 +251,7 @@ h1 {
     margin-bottom: 4vh;
 }
 
+/* Individual reasons content */
 .reason {
     margin-bottom: 2vh;
 }
@@ -251,6 +268,7 @@ h1 {
 }
 
 /* SECTION BUSINESS */
+/* Container for all business content */
 #business {
     padding: 12vh 8vw 16vh 13vw;
 }
@@ -261,28 +279,12 @@ h1 {
     padding-bottom: 2vh;
 }
 
+/* Individual business content */
 .businesstext {
     font-size: 0.6em;
     line-height: 1.7;
     color: #b4b4b4;
     margin-bottom: 1vh;
-}
-
-.offer1 {
-    padding-bottom: 10vh; 
-}
-
-#legacy {
-    background-color: #e2e2e2;
-    color: #f0f0f0;
-    font-size: 0.5em;
-    font-weight: bolder;
-    text-transform: uppercase;
-    border-radius: 5px;
-    padding: 8px 10px;
-    text-align: center;
-    display: inline-block;
-    margin-bottom: 2vh;
 }
 
 .offerbutton {
@@ -316,6 +318,25 @@ h1 {
     padding-top: 1vh;
 }
 
+/* Offer one content */
+.offer1 {
+    padding-bottom: 10vh; 
+}
+
+#legacy {
+    background-color: #e2e2e2;
+    color: #f0f0f0;
+    font-size: 0.5em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 8px 10px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 2vh;
+}
+
+/* Offer two content */
 #mostpopular {
     background-color: #bf8bc0;
     color: #f0f0f0;
@@ -330,6 +351,7 @@ h1 {
 }
 
 /* SECTION FOOTER */
+/* Container for all footer content */
 footer {
     background-color: #182432;
     color: #f0f0f0;
@@ -338,18 +360,17 @@ footer {
     padding: 12vh 8vw 16vh 7vw;
 }
 
+/* Three footer element */
+#footertext + #footerform + #footernav h4 {
+    margin-bottom: 1vh;
+}
+
+/* Footer text Get in touch */
 #footertext {
     margin-bottom: 2vh;
 }
 
-#footertext h4 {
-    margin-bottom: 1vh;
-}
-
-#footerform + #footernav h4 {
-    margin-bottom: 1vh;
-}
-
+/* Footer form Stay in touch */
 #footerform {
     display: flex;
     flex-direction: row;;
@@ -391,6 +412,7 @@ label {
     width: 100vw;
 }
 
+/* Footer nav Resources */
 #footernav {
     display: flex;
     flex-direction: row;
@@ -413,12 +435,13 @@ label {
 
 
 /**** RESPONSIVE ****/
-/* TABLETS */
+/** TABLETS **/
 @media screen 
   and (min-width: 768px) 
   and (max-width: 1024px) {
 
-    /* HEADER */    
+    /* HEADER */   
+    /* Company logo and name */ 
     #logo-container img {
         width: 6%;
         height: 4%;
@@ -429,12 +452,14 @@ label {
         padding: 1.2vh 0vw;
     }
 
+    /* Container for home h2 and p */
     #home {
         position: absolute;
         margin-right: 45vw;
         margin-top: 45vh;
     }
 
+    /* Picture perfect */
     #home h2 {
         font-size: 4em;
         font-weight: 500;
@@ -449,6 +474,7 @@ label {
     }
 
     /* SECTION INTRODUCTION */
+    /* Both introduction text paragraphs */
     .introtext {
         margin: 12vh 7vw 10vh 6vw;
         display: flex;
@@ -469,22 +495,26 @@ label {
         color: #b4b4b4;
     }
 
+    /* Introduction text paragraph on the left */
     #introtext1 {
         width: 54vw;
         margin-right: 2.5vw;
     }
 
+    /* Introduction text paragraph on the right */
     #introtext2 {
         width: 45vw;
         margin-top: 18vh;
     }
 
     /* SECTION SERVICES */
+    /* Container for all services contents */
     #services {
         display: flex;
         flex-wrap: wrap;
     }
 
+    /* Individual service boxes */
     .servicebox {
         width: 45vw;
         padding-left: 5vw;
@@ -510,6 +540,7 @@ label {
         color: #f0f0f0;
     }
 
+    /* Perfect pictures service box */
     #service5 {
         width: 90vw;
     }
@@ -520,6 +551,7 @@ label {
     }
 
     /* SECTION DETAILS */
+    /* Container for all details content */
     #details {
         padding: 15vh 5vw 16vh 7vw;
         display: flex;
@@ -535,6 +567,7 @@ label {
         margin-bottom: 7vh;
     }
 
+    /* Individual details content */
     .detail {
         margin-bottom: 2vh;
         width: 43vw;
@@ -554,6 +587,7 @@ label {
     }
 
     /* SECTION OPTIONS */
+    /* Container for options h2 and p */
     #options {
         background-position: 10% 65%;
         background-size: 275%;
@@ -562,6 +596,7 @@ label {
         padding: 26vh 45vw 1vh 7vw;
     }
 
+    /* More power behind every pixel */
     #options h2 {
         font-size: 4em;
         font-weight: 500;
@@ -586,11 +621,9 @@ label {
     }
 
     /* SECTION REASONS */
+    /* Container for all reasons content */
     #reasons {  
-        padding-top: 12vh;
-        padding-bottom: 18vh;
-        padding-left: 7vw;
-        padding-right: 6vw;
+        padding: 12vh 6vw 18vh 7vw;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -603,6 +636,7 @@ label {
         margin-bottom: 7vh;
     }
 
+    /* Individual details content */
     .reason {
         width: 27vw;
         margin-bottom: 2vh;
@@ -620,11 +654,9 @@ label {
     }
 
     /* SECTION BUSINESS */
+    /* Container for all business content */
     #business {
-        padding-top: 14vh;
-        padding-bottom: 8vh;
-        padding-left: 7vw;
-        padding-right: 7vw;
+        padding: 14vh 7vw 8vh 7vw;
         display: flex;
         justify-content: space-between;
     }
@@ -636,17 +668,11 @@ label {
         padding-bottom: 3vh;
     }
 
+    /* Individual business content */
     .businesstext {
         font-size: 0.9em;
         line-height: 1.9;
         margin-bottom: 2vh;
-    }
-
-    .offer1 {
-        padding-bottom: 10vh;
-        padding-right: 3vw;
-        height: 45vh;
-        width: auto;
     }
 
     #legacy, #mostpopular {
@@ -663,24 +689,27 @@ label {
         margin-bottom: 1.5vh;
     }
 
+    /* Offer one content */
+    .offer1 {
+        padding-bottom: 10vh;
+        padding-right: 3vw;
+        height: 45vh;
+        width: auto;
+    }
+
     /* SECTION FOOTER */
+    /* Container for all footer content */
     footer {
         font-size: 0.9em;
         line-height: 1.8;
-        padding-top: 14vh;
-        padding-bottom: 20vh;
-        padding-left: 7vw;
-        padding-right: 6vw;
+        padding: 14vh 6vw 20vh 7vw;
     }
 
-    #footertext h4 {
+    #footertext + #footerform + #footernav h4 {
         margin-bottom: 1vh;
     }
 
-    #footerform + #footernav h4 {
-        margin-bottom: 1vh;
-    }
-
+    /* Footer form Stay in touch */
     input[type="email"] {
         width: 80vw;
     }
@@ -694,6 +723,7 @@ label {
         font-size: 0.8em;
     }
 
+    /* Footer nav Resources */
     #footernav {
         margin-top: 2vh;
     }
@@ -704,18 +734,20 @@ label {
 }
 
 
-/* DESKTOP */
+/** DESKTOP **/
 @media screen 
   and (min-width: 1024px) 
   and (max-width: 2400px) { 
 
-    /* HEADER */    
+    /* HEADER */  
+    /* Container for all header content */  
     header {
         display: flex;
         justify-content: space-between;
     }
 
     /* LOGO */
+    /* Company logo and name */
     #logo-container img {
         width: 35%;
         margin-left: 0.5vw;
@@ -727,13 +759,14 @@ label {
         padding: 1.1vh 0vw;
     }
 
-    /* H2 TEXT */
+    /* Container for home h2 and p */
     #home {
         position: absolute;
         margin-left: 21vw;
         margin-top: 48vh;
     }
 
+    /* Picture perfect */
     #home h2 {
         width: 25vw;
         font-size: 3.2em;
@@ -747,7 +780,7 @@ label {
         line-height: 1.7;
     }
 
-    /* PHONE */
+    /* Phone image */
     #phone {
         position: absolute;
         display: block;
@@ -763,11 +796,9 @@ label {
     }
 
     /* SECTION INTRODUCTION */
+    /* Both introduction text paragraphs */
     .introtext {
-        margin-top: 10vh;
-        margin-bottom: 7vh;
-        margin-left: 21vw;
-        margin-right: 6vw;
+        margin: 10vh 6vw 7vh 21vw;
         display: flex;
     }
 
@@ -785,17 +816,19 @@ label {
         padding-bottom: 2.5vh;
     }
 
+    /* Introduction text paragraph on the left */
     #introtext1 {
         width: 29vw;
         margin-right: 2.5vw;
     }
-
+    /* Introduction text paragraph on the right */
     #introtext2 {
         width: 29vw;
         margin-top: 18vh;
     }
 
     /* SECTION SERVICES */
+    /* Container for all services content */
     #services {
         width: auto;
         margin-left: 15vw;
@@ -808,6 +841,7 @@ label {
             "service4 service 4 service5";
     }
 
+    /* Individual service boxes */
     .servicebox {
         padding-left: 3vw;
         padding-right: 4vw;
@@ -833,17 +867,16 @@ label {
         color: #f0f0f0;
     }
 
+    /* Sign up and see why service box */
     #service4 {
         grid-column: 1 / 3;
     }
 
 
     /* SECTION DETAILS */
+    /* Container for all details content */
     #details {
-        padding-top: 9vh;
-        padding-bottom: 15vh;
-        padding-left: 21vw;
-        padding-right: 19vw;
+        padding: 9vh 19vw 15vh 21vw;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -857,6 +890,7 @@ label {
         margin-bottom: 6vh;
     }
 
+    /* Individual details content */
     .detail {
         margin-bottom: 2vh;
         width: 14vw;
@@ -873,11 +907,13 @@ label {
     }
 
     /* SECTION OPTIONS */
+    /* Container for options h2 and p */
     #options {
         background-size: cover;
         padding: 49vh 50vw 10vh 22vw;
     }
 
+    /* More power behind every pixel */
     #options h2 {
         font-size: 3.3em;
         width: 52vw;
@@ -897,11 +933,9 @@ label {
     }
 
     /* SECTION REASONS */
+    /* Container for all reasons content */
     #reasons {  
-        padding-top: 11vh;
-        padding-bottom: 18vh;
-        padding-left: 21vw;
-        padding-right: 19vw;
+        padding: 11vh 19vw 18vh 21vw;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -914,6 +948,7 @@ label {
         margin-bottom: 6vh;
     }
 
+    /* Individual details content */
     .reason {
         width: 19vw;
         margin-bottom: 2vh;
@@ -931,11 +966,9 @@ label {
     }
 
     /* SECTION BUSINESS */
+    /* Container for all business content */
     #business {
-        padding-top: 10vh;
-        padding-bottom: 10vh;
-        padding-left: 22vw;
-        padding-right: 17vw;
+        padding: 10vh 17vw 10vh 22vw;
         display: flex;
     }
 
@@ -946,12 +979,14 @@ label {
         padding-bottom: 3vh;
     }
 
+    /* Individual business content */
     .businesstext {
         font-size: 0.8em;
         line-height: 1.7;
         margin-bottom: 2vh;
     }
 
+    /* Offer one and offer 2 content */
     .offer1, .offer2 {
         padding: 2.5vh 1vw 2.5vh 1.5vw;
         margin-right: 1vw;
@@ -984,6 +1019,7 @@ label {
     }
 
     /* SECTION FOOTER */
+    /* Container for all footer content */
     footer {
         display: flex;
         flex-wrap: wrap;
@@ -992,6 +1028,7 @@ label {
         padding: 14vh 6vw 20vh 21vw;
     }
 
+    /* Footer form Stay in touch */
     input[type="email"] {
         margin-top: 0vh;
     }
@@ -1003,7 +1040,6 @@ label {
     }
 
     label {
-        width: 29vw;
         font-size: 0.8em;
     }
 
@@ -1018,7 +1054,8 @@ label {
         flex-wrap: wrap;
         flex-direction: row;
     }
-
+    
+    /* Footer nav Resources */
     #footernav {
         width: 30vw;
         margin-top: 2vh;

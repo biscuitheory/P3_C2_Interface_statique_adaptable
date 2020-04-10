@@ -438,7 +438,7 @@ label {
 /** TABLETS **/
 @media screen 
   and (min-width: 768px) 
-  and (max-width: 1024px) {
+  and (max-width: 1366px) {
 
     /* HEADER */   
     /* Company logo and name */ 
@@ -736,7 +736,7 @@ label {
 
 /** DESKTOP **/
 @media screen 
-  and (min-width: 1024px) 
+  and (min-width: 1366px) 
   and (max-width: 2400px) { 
 
     /* HEADER */  

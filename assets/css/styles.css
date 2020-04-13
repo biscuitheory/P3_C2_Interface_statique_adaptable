@@ -127,6 +127,7 @@ header {
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    background-color: darkcyan;
 }
 
 /* Company logo and name */
@@ -235,6 +236,7 @@ header {
     width: 100vw;
     height: 100vh;
     padding: 23vh 7vw;
+    background-color: darkcyan;
 }
 
 .optionlink {
